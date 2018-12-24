@@ -1,5 +1,5 @@
 
-img{
+.bio img{
 	height: 180px;
     border-radius: 50%;
     width: 160px;
@@ -8,7 +8,9 @@ img{
     margin-top: 20px;
 }
 
-
+.navbar{
+	margin: 0;
+}
 .bio{
 	text-align: center;
 	color: white;
@@ -22,10 +24,14 @@ img{
 	padding: 20px;
 }
 
-#db{
-	margin-right: 5px;
+.navbar-header a{
+	margin: 25px;
+	font-size: 20px;
 }
 
+h4{
+	margin: auto;
+}
 
 hr{
 	margin-top: 10px;

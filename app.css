@@ -8,9 +8,7 @@
     margin-top: 20px;
 }
 
-.navbar{
-	margin: 0;
-}
+
 .bio{
 	text-align: center;
 	color: white;
@@ -24,13 +22,24 @@
 	padding: 20px;
 }
 
-.navbar-header a{
-	margin: 25px;
-	font-size: 20px;
+ #socialMedia {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00e6ac;
 }
 
-h4{
-	margin: auto;
+#socialMedia li {
+  float: left;
+}
+
+#socialMedia li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 hr{

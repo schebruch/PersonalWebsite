@@ -1,19 +1,4 @@
 
-
-
-.bio{
-	text-align: center;
-	color: white;
-	text-shadow: 1px 1px #000000;
-	background: #39e600;
-	margin: auto;
-}
-
-.bio p{
-	font-size: 20px;
-	padding: 20px;
-}
-
 img{
 	height: 180px;
     border-radius: 50%;
@@ -21,6 +6,35 @@ img{
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+}
+
+
+.bio{
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px #000000;
+	background-image: linear-gradient(to right, rgb(0, 230, 230), rgb(57, 230, 0), 	rgb(0, 230, 230));
+	margin: auto;
+}
+
+#bioText{
+	font-size: 20px;
+	padding: 20px;
+}
+
+#db{
+	margin-right: 5px;
+}
+
+
+hr{
+	margin-top: 10px;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
 
 
 

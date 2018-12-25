@@ -1,4 +1,15 @@
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
 
+.wrapper{
+
+}
+
+/*personal image*/
 .bio img{
 	height: 180px;
     border-radius: 50%;
@@ -8,32 +19,37 @@
     margin-top: 20px;
 }
 
-
+/*Bio Container*/
 .bio{
 	text-align: center;
 	color: white;
 	text-shadow: 1px 1px #000000;
-	background-image: linear-gradient(to right, rgb(0, 230, 230), rgb(57, 230, 0), 	rgb(0, 230, 230));
+	background-image: url(https://digitizor.com/wp-content/uploads/2011/06/Planets.jpg);
+	background-size: cover;
 	margin: auto;
 }
 
+/*paragraph*/
 #bioText{
 	font-size: 20px;
 	padding: 20px;
 }
 
+/*Navbar*/
  #socialMedia {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #00e6ac;
+  background-color: black;
 }
 
+/*Navbar*/
 #socialMedia li {
   float: left;
 }
 
+/*Navbar*/
 #socialMedia li a {
   display: block;
   color: white;
@@ -42,14 +58,41 @@
   text-decoration: none;
 }
 
-hr{
-	margin-top: 10px;
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+/*Between sections*/
+.section{
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 40px;
 }
 
+.section-header{
+	text-align: center;
+	margin: 0;
+	font-size: 40px;
+}
 
+/*Either work experience or project experience*/
+.experience-header{
+	margin : 0;
+	text-align: center;
+	font-size: 30px;
+}
+
+/*e.g. data science grader fall 2018 */
+.position-header{
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+/*The whole experience section*/
+.experience-section{
+	width: 90%;
+	margin: 50px auto;
+}
+
+/*Paragraph summarizing experience*/
+.experience-summary{
+	background-color: #b3ecff;
+}
 
 

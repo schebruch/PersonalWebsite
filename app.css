@@ -86,11 +86,28 @@ hr{
 	font-size: 30px;
 }
 
+.experience-description *{
+	margin: 10px 0;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 20px;
+}
+
+.testimonial{
+	border-top: 3px dashed #1059ce;
+	border-radius: 0;
+}
+
+.testimonial p{
+	padding-left:40px;
+}
+
 /*e.g. data science grader fall 2018 */
 .position-header{
 	margin-bottom: 0;
 	font-size: 20px;
-	color: #a3a0b2;
+	color: white;
+	background-color: #5e5975;
 }
 
 

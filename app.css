@@ -58,17 +58,25 @@ hr{
   text-decoration: none;
 }
 
+.#intro{
+	margin: 0;
+}
+
 /*Between sections*/
 .section{
-	margin-left: 80px;
-	margin-right: 80px;
-	margin-top: 40px;
+	margin: 50px auto;
+	width: 90%;
+
 }
 
 .section-header{
 	text-align: center;
 	margin: 0;
 	font-size: 40px;
+	color: white;
+	background-color: black;
+	border-radius: 25px;
+	padding: 20px;
 }
 
 /*Either work experience or project experience*/
@@ -82,13 +90,9 @@ hr{
 .position-header{
 	margin-bottom: 0;
 	font-size: 20px;
+	color: #a3a0b2;
 }
 
-/*The whole experience section*/
-.experience-section{
-	width: 90%;
-	margin: 50px auto;
-}
 
 /*Paragraph summarizing experience*/
 .experience-summary{

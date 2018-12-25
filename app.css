@@ -29,6 +29,10 @@ hr{
 	margin: auto;
 }
 
+#db{
+	padding-right: 5px
+}
+
 /*paragraph*/
 #bioText{
 	font-size: 20px;
@@ -79,6 +83,7 @@ hr{
 	padding: 20px;
 }
 
+
 /*Either work experience or project experience*/
 .experience-header{
 	margin : 0;
@@ -116,4 +121,15 @@ hr{
 	background-color: #b3ecff;
 }
 
+.experience-summary p{
+	font-size: 25px;
+}
+
+.container{
+	text-align: center;
+}
+
+.project-tools-label{
+	padding: 10px;
+}
 

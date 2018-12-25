@@ -5,10 +5,6 @@ hr{
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
-.wrapper{
-
-}
-
 /*personal image*/
 .bio img{
 	height: 180px;
@@ -73,6 +69,12 @@ hr{
 
 }
 
+.container{
+	/*text-align: center;*/
+	width: 90%;
+	margin: auto;
+}
+
 .section-header{
 	text-align: center;
 	margin: 0;
@@ -86,9 +88,13 @@ hr{
 
 /*Either work experience or project experience*/
 .experience-header{
-	margin : 0;
+	margin: 0;
 	text-align: center;
 	font-size: 30px;
+}
+
+.panel-primary{
+	margin-top: 20px;
 }
 
 .experience-description *{
@@ -125,11 +131,20 @@ hr{
 	font-size: 25px;
 }
 
-.container{
-	text-align: center;
-}
-
 .project-tools-label{
 	padding: 10px;
 }
 
+.courses-card{
+	padding: 20px;
+	border-radius: 25px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+.courses-card img{
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 20px;
+}

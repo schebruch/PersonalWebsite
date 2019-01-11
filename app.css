@@ -44,6 +44,7 @@ hr{
   background-color: black;
 }
 
+
 /*Navbar*/
 #socialMedia li {
   float: left;
@@ -143,12 +144,6 @@ hr{
 	font-size: 20px;
 }
 
-.courses-card img{
-	max-width: 100%;
-	max-height: 100%;
-	border-radius: 20px;
-}
-
 .language-card{
 	padding: 20px;
 	border-radius: 25px;
@@ -157,8 +152,7 @@ hr{
 	font-size: 20px;
 }
 
-.language-card img{
-	max-width: 100%;
-	max-height: 100%;
-	border-radius: 20px;
+.language-card{
+	height: 100%;
+	overflow: hidden;
 }
